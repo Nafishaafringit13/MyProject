@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="636978"/>
+  <parameter name="address" value="No.12,Masjid Street,Chennai"/>
+  <parameter name="cc_num" value="4915293070636978"/>
+  <parameter name="last_name" value="singh"/>
+  <parameter name="userName" value="nafisha31"/>
+  <parameter name="first_name" value="Arpit"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="demo.Mycode">
+        <methods>
+          <include name="test1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- demo.Mycode -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
